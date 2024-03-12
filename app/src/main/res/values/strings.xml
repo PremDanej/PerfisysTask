@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Perfisys</string>
+    <string name="lbl_item">Item :</string>
+    <string name="lbl_price">Price :</string>
+    <string name="lbl_paid_by">Paid by :</string>
+    <string name="lbl_expense_history">Expense History</string>
+    <string name="lbl_show_expense">Show Expense</string>
+    <string name="lbl_610">610</string>
+    <string name="lbl_mike">Mike</string>
+    <string name="lbl_695">695</string>
+    <string name="lbl_john">John</string>
+    <string name="lbl_803">803</string>
+    <string name="lbl_alice">Alice</string>
+    <string name="lbl_spent_by">Spent by</string>
+    <string name="lbl_2128">2128</string>
+    <string name="lbl_this_month">This month</string>
+    <string name="lbl_monthly_expenses_tracer">Monthly expenses tracer</string>
+</resources>
