@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnSecond.setOnClickListener(view ->{
-            startActivity(new Intent(this, SplitifyHomeActivity.class));
+            startActivity(new Intent(this, MarghActivity.class));
         });
     }
 }

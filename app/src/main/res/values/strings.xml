@@ -15,4 +15,19 @@
     <string name="lbl_2128">2128</string>
     <string name="lbl_this_month">This month</string>
     <string name="lbl_monthly_expenses_tracer">Monthly expenses tracer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_upload">Upload your quote</string>
+    <string name="lbl_share">Share</string>
+    <string name="lbl_contact_us">Contact Us</string>
+    <string name="lbl_about_us">About Us</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_first_task">First Task</string>
+    <string name="lbl_second_task">Second Task</string>
+    <string name="lbl_very_good_norming_john">Very Good Norming, John</string>
+    <string name="lbl_random_quotes">Random quotes</string>
+    <string name="lbl_search">Search</string>
 </resources>

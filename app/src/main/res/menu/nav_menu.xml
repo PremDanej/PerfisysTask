@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuHome"
+        android:title="@string/lbl_home"
+        android:tooltipText="@string/lbl_home"
+        android:icon="@drawable/home_selector"/>
+
+    <item android:id="@+id/menuSave"
+        android:title="@string/lbl_save"
+        android:tooltipText="@string/lbl_save"
+        android:icon="@drawable/save_selector"/>
+
+    <item android:id="@+id/menuProfile"
+        android:title="@string/lbl_profile"
+        android:tooltipText="@string/lbl_profile"
+        android:icon="@drawable/profile_selector"/>
+
+</menu>

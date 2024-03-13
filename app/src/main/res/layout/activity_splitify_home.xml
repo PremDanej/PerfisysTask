@@ -7,23 +7,26 @@
     tools:context=".ui.SplitifyHomeActivity">
 
     <FrameLayout
-        android:layout_marginHorizontal="20sp"
         android:id="@+id/layoutActionBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
         android:layout_marginTop="4dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/ic_launcher_background" />
+            android:padding="5dp"
+            android:src="@drawable/ic_game"
+            app:tint="@color/blue" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="44dp"
             android:layout_gravity="end|center_vertical"
-            android:src="@android:drawable/ic_menu_view" />
+            android:padding="6dp"
+            android:src="@drawable/ic_menu" />
 
     </FrameLayout>
 
@@ -33,7 +36,6 @@
         android:layout_marginHorizontal="40dp"
         app:layout_constraintBottom_toTopOf="@+id/layoutEnd"
         app:layout_constraintTop_toBottomOf="@+id/layoutActionBar">
-
 
         <TextView
             android:id="@+id/txtTitle"
@@ -48,11 +50,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.card.MaterialCardView
-
             android:id="@+id/cardExpense"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:cardCornerRadius="10dp"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="8dp"
             app:layout_constraintBottom_toTopOf="@+id/layoutSpent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -171,15 +173,14 @@
 
             </LinearLayout>
         </LinearLayout>
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
         android:id="@+id/layoutEnd"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <com.google.android.material.button.MaterialButton
@@ -189,7 +190,8 @@
             android:layout_gravity="center_vertical"
             android:text="@string/lbl_show_expense"
             android:textColor="@color/black"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            app:strokeWidth="0.1dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
@@ -200,5 +202,4 @@
             app:backgroundTint="@color/white" />
 
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
